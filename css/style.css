@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  height: 120px;
+  background-color: red;
+}
+
+#main {
+  background-color: lightblue;
+  height: 600px;
+}
+
+.sidebar {
+  background-color: salmon;
+  width: 300px;
+  height: 600px;
+  display: inline-block;
+}
+
+.main-section {
+  background-color: green;
+  width: calc(100% - 305px);
+  height: 600px;
+  display: inline-block;
+}
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: brown;
+}
+.large-font {
+  font-size: 40px;
+  align-items: center;
+  padding: 50px;
+  border: 4px dashed tomato;
+}
